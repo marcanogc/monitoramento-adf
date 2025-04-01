@@ -35,7 +35,6 @@ adf_name = "adf-monitoramento-custos"
 adf_client = DataFactoryManagementClient(credential, subscription_id)
 cost_client = CostManagementClient(credential)
 ```
-# Monitoramento de Custos no Azure Data Factory
 
 Este projeto demonstra como monitorar custos associados ao Azure Data Factory (ADF) utilizando ferramentas nativas do Azure como Azure Cost Management e Alertas de Orçamento. Abaixo estão os passos de implementação, insights e melhorias potenciais.
 
